@@ -14,12 +14,9 @@ btnContactanos.addEventListener('click', () => {
                                     <a href="mailto:calidad@peali.com.mx"><li>calidad@peali.com.mx</li></a>
                                </ul>
                                <button id="btnCerrarList">Cerrar</button>`;
-    containerHeroBanner.appendChild(contactosList);
+        containerHeroBanner.appendChild(contactosList);
+        btnCerrarList.addEventListener('click', () => {
+        const delContactosList = document.querySelector('.contactosList');
+        delContactosList.remove();
+    });
 });
-
-const btnCerrarList = document.getElementById('btnCerrarList');
-
-btnCerrarList.addEventListener('click', () => {
-    const delContactosList = document.querySelector('.contactosList');
-    delContactosList.remove();
-})
