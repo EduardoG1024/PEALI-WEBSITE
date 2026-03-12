@@ -1,0 +1,45 @@
+.contactosList{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 10px;
+    right: 10px;
+    width: 400px;
+    height: fit-content;
+    padding: 10px 0 10px 0;
+    gap: 10px;
+    border: #1F212E solid 2px;
+    border-radius: 5px;
+    background: #D9D9D9;
+}
+.contactosList h2{
+    font-family: 'Comic Neue', cursive;
+    align-self: center;
+}
+.contactosList ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+    gap: 5px;
+}
+.contactosList ul a{
+    text-decoration: none;
+}
+.contactosList ul li{
+    font-family: 'Comic Neue', cursive;
+    list-style: none;
+}
+.contactosList button{
+    font-family: 'Comic Neue', cursive;
+    width: 90%;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    background: #c58a8a;
+    cursor: pointer;
+}
