@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+    width: 90%;
+    height: fit-content;
+}
+footer h3{
+    font-family: 'Comic Neue', cursive;
+}
+.containerEtiquetasFooter{
+    width: 100%;
+}
+.containerEtiquetasFooter ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-family: 'Comic Neue', cursive;
+    list-style: none;
+    color: #1F212E;
+}
+footer h2{
+    font-family: 'Comic Neue', cursive;
+    justify-self: center;
+}

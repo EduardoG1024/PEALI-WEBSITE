@@ -1,0 +1,18 @@
+.containerServiciosCompromiso{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    height: fit-content;
+}
+.containerServiciosCompromiso h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    align-self: flex-start;
+}
+.containerServiciosCompromiso p{
+    font-family: 'Open Sans', sans-serif;
+    align-self: flex-start;
+}

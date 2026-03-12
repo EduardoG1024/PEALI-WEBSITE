@@ -1,0 +1,13 @@
+.containerImagenesPeali{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    width: 90%;
+    height: fit-content;
+    margin: 20px 0 20px 0;
+}
+.PealiGaleria{
+    width: 100%;
+}

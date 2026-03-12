@@ -1,0 +1,81 @@
+/*CONTENEDOR PRINCIPAL*/
+.containerHeroBanner{
+    display: grid;
+    align-items: center;
+    justify-content: flex-start;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 90%;
+    height: fit-content;
+}
+.containerHeroBanner01{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: fit-content;
+}
+.containerHeroBanner01 h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #1F212E;
+    font-weight: 400;
+    font-size: 40px;
+    align-self: center;
+}
+.containerButtonsHero{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    height: fit-content;
+}
+#btnContactanos, #btnVerMas{
+    font-family: 'Comic Neue', cursive;
+    font-size: medium;
+    width: 170px;
+    height: 40px;
+    color: #D9D9D9;
+    border-radius: 4px;
+    cursor: pointer;
+    border: #0F9746 solid 1px;
+    background: #0F9746;
+}
+#btnVerMas{
+    border: #0F9746 solid 3px;
+    background: #D9D9D9;
+    color: #1F212E;
+    width: 100px;
+
+}
+.containerSocialMediaHero{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    height: fit-content;
+}
+.iconSocial{
+    width: 50px;
+    cursor: pointer;
+}
+/**/
+.containerHeroBanner02{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.logoPealiBanner{
+    width: 100%;
+    border-radius: 70px;
+}
+.containerHeroBanner02 p{
+    font-family: 'Comic Neue', cursive;
+}
